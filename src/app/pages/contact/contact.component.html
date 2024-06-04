@@ -6,6 +6,7 @@
             type="email"
             class="form-control"
             id="exampleInputEmail1"
+            size="5"
             aria-describedby="emailHelp"
             formControlName="email"
             [ngClass]="{'is-invalid': hasErrors('email', 'required') || hasErrors('email', 'email')}"
@@ -19,14 +20,14 @@
         <div id="emailHelp" class="form-text"></div>
         </div>
         <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-        <input
-            type="password"
+        <label for="exampleInputPassword1" class="form-label">Mensaje</label>
+        <textarea
+            type="text-area"
             class="form-control"
             id="exampleInputPassword1"
             formControlName="password"
             [ngClass]="{'is-invalid': hasErrors('password', 'minlength')}"
-        >
+        ></textarea>
         <div *ngIf="hasErrors('password', 'minlength')" class="text-danger">
             Tienes que escribir al menos 10 caracteres
         </div>
