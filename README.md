@@ -1,27 +1,39 @@
-# Landing Page Angular
+# Página web Centro Comercial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+Esta es una aplicación desarrollada en angular, que consume una API externa permte ver el listado de productos y el producto al detalle. Tiene sus estilos en bootstrap.
 
-## Development server
+## Contenidos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. [Capturas de pantalla](#capturas-de-pantalla)
+2. [Tecnologías utilizadas](#tecnologías-utilizadas)
+3. [Enlace a la web](#enlace-a-la-web)
+4. [Créditos](#créditos)
 
-## Code scaffolding
+## Capturas de pantalla
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![inicio](https://github.com/CristinaFdezFdez/pagina-ventas-angular/assets/155740893/26b056af-db19-4690-b232-040528409264)
 
-## Build
+![productos](https://github.com/CristinaFdezFdez/pagina-ventas-angular/assets/155740893/72986987-8a54-4493-9947-ede5d9e59306)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![producto](https://github.com/CristinaFdezFdez/pagina-ventas-angular/assets/155740893/5e7fbbd3-5c7f-469f-95df-2e81f0d0b16d)
 
-## Running unit tests
+![contacto](https://github.com/CristinaFdezFdez/pagina-ventas-angular/assets/155740893/d42a7d03-6a4b-4d47-b432-841b179c3d89)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![error](https://github.com/CristinaFdezFdez/pagina-ventas-angular/assets/155740893/85578891-38b1-4388-a798-06f9087fb045)
 
-## Running end-to-end tests
+![correcto](https://github.com/CristinaFdezFdez/pagina-ventas-angular/assets/155740893/b90d064c-521f-4f9d-9c5b-e32948854308)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Tecnologías utilizadas
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Angular
+- Bootstrap
+- Postman
+
+## Enlace a la web
+[La Fresneda](https://lafresneda.netlify.app/)
+
+## Créditos
+
+Este proyecto fue desarrollado por [Cristina Fernández](https://github.com/CristinaFdezFdez/).
+
