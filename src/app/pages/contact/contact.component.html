@@ -1,0 +1,38 @@
+<div class="container">
+    <form [formGroup]="contactForm" class="row g-3" novalidate (ngSubmit)="enviar($event)">
+        <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            formControlName="email"
+            [ngClass]="{'is-invalid': hasErrors('email', 'required') || hasErrors('email', 'email')}"
+        >
+        <div *ngIf="hasErrors('email', 'required')" class="text-danger">
+            Tienes que completar este campo
+        </div>
+        <div *ngIf="hasErrors('email', 'email')" class="text-danger">
+                Formato inválido
+        </div>
+        <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+        <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            formControlName="password"
+            [ngClass]="{'is-invalid': hasErrors('password', 'minlength')}"
+        >
+        <div *ngIf="hasErrors('password', 'minlength')" class="text-danger">
+            Tienes que escribir al menos 10 caracteres
+        </div>
+        </div>
+        <div class="col-12">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+    </form>
+</div>
